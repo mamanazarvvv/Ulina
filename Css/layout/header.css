@@ -1,0 +1,75 @@
+header{
+    background-color:#DEECEC ;
+    padding: 11.9rem 0;
+}
+.head-left > span{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 6rem;
+    font-family: feet;
+    color: #589195;
+    margin-bottom: 11px;
+}
+.head-left > p{
+    margin-top: 30px;
+}
+.head-left > button{
+    margin-top: 2.5rem;
+}
+.head-left{
+    width: 33.5%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-right > img{
+    max-width: 47.4rem;
+    height: 56.2rem;
+}
+.head-right{
+    display: flex;
+    flex-direction: column;
+    gap: 4.7rem;
+}
+.change{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.9rem;
+}
+.change > div{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #9FC1C3;
+    cursor: pointer;
+    transition: ease .3s;
+}
+.change > div:hover{
+    border: 0.08rem solid #589195;
+    padding: 7px;
+    background-color: #589195;
+}
+
+/* bottom header */
+
+.header-bottom{
+    padding: 6.9rem;
+}
+.head-b{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.element{
+    width: 20%;
+}
+.element > h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 60px;
+    font-family: work;
+    color: #34394C;
+}

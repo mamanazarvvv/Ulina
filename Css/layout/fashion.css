@@ -1,0 +1,91 @@
+.fashion{
+    background-color: #F6F8FA;
+    padding: 8.8rem 0;
+}
+.fash-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fashion-right{
+    width: 40%;
+}
+.fashion-right > span{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 6rem;
+    color: #589195;
+    font-family: feet;
+}
+.fashion-right > p{
+    margin-top: 1.5rem;
+    font-family: work;
+    font-size: 1.8rem;
+}
+.buy-side{
+    display: flex;
+    align-items: center;
+    margin-top: 1.1rem;
+}
+.buy-side > h2{
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 6rem;
+    font-family: work;
+    color: #297176;
+}
+.buy-side > del{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 6rem;
+    font-family: work;
+    margin-left: 20px;
+    margin-right: 70px;
+    color: #969DAD;
+}
+.time > p{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 6rem;
+    color: #34394C;
+    font-family: feet;
+}
+.all-times{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 3.8rem;
+    color: #34394C;
+    line-height: 6rem;
+    font-family: feet;
+}
+.all-times > h3{
+    border-radius: 50%;
+    position: relative;
+    padding: 2rem 3.7rem;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 6rem;
+    background-color: #ffff;
+}
+.all-times > h3::before{
+    position: absolute;
+    bottom: -5rem;
+    right: 2.7rem;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 6rem;
+}
+.all-times > h3:nth-child(1):before{
+    content: "DAYS";
+}
+.all-times > h3:nth-child(2):before{
+    content: "HOURS";
+}
+.all-times > h3:nth-child(3):before{
+    content: "MINS";
+}
+.all-times > h3:nth-child(4):before{
+    content: "SECS";
+}

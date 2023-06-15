@@ -1,0 +1,28 @@
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: #DEECEC;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4.2rem 0rem;
+}
+.nav-links{
+    display: flex;
+    gap: 5rem;
+}
+.nav-links > li > a{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    font-family: work;
+    color: #2C5F63;
+}
+.nav-elements{
+    display: flex;
+    gap: 2.8rem;
+}

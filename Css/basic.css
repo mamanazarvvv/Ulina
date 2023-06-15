@@ -13,9 +13,54 @@
     box-sizing: border-box;    
 }
 html{
-    max-width: 62.5%;
+    font-size: 62.5%;
 }
 .container{
     max-width: 74%;
     margin: 0px auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+summary{
+    list-style: none;
+}
+details{
+    list-style: none;
+}
+h1{
+    font-weight: 500;
+    font-size: 5rem;
+    line-height: 6rem;
+    font-family: feet;
+    color: #3A415C;
+}
+.title-text{
+    font-weight: 500;
+    font-size: 5rem;
+    line-height: 6rem;
+    font-family: feet;
+    color: #3A415C;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1.1rem 3rem;
+    font-family: feet;
+    background: #589195;
+    border-radius: 3.8rem;
+    border: none;
+    color: #fff;
+}
+.pub_p{
+    font-family: work;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #707686;
 }
