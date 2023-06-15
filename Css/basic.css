@@ -1,0 +1,21 @@
+@font-face {
+    font-family: feet;
+    src: url(../fonts/Outfit-Regular.ttf);
+}
+@font-face {
+    font-family: work;
+    src: url(../fonts/WorkSans-Regular.ttf);
+}
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+html{
+    max-width: 62.5%;
+}
+.container{
+    max-width: 74%;
+    margin: 0px auto;
+}
