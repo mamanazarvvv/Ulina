@@ -1,0 +1,123 @@
+.product-page{
+    padding: 12.5rem 0;
+}
+.product-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    padding-bottom: 3.2rem;
+}
+.product-link{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.product-link > li > a{
+    color: #AFB4C4;
+    font-family: feet;
+    font-size: 2.6rem;
+    line-height: 6rem;
+    font-weight: 300;
+}
+
+.product-link > li:nth-child(1) > a{
+    color: #34394C; 
+}
+.product-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10.4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.p1{
+    background-image: url(/img/fashion1.png);
+}
+.p2{
+    background-image: url(/img/fashion3.png);
+}
+.p3{
+    background-image: url(/img/fashion4.png);
+}
+.p4{
+    background-image: url(/img/fashion5.png);
+}
+.p5{
+    background-image: url(/img/fashion1.png);
+}
+.p6{
+    background-image: url(/img/fashion6.png);
+}
+.p7{
+    background-image: url(/img/fashion7.png);
+}
+.p8{
+    background-image: url(/img/fashion8.png);
+}
+.p4,.p8{
+    justify-content: end;
+}
+
+/* colors */
+.colors_p1{
+    display: flex;
+    gap: 1rem;
+}
+.colors_p1 > div{
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50% ;
+}
+.colors_p1 > div:nth-child(1){
+    background-color: #BA2828;
+}
+.colors_p1 > div:nth-child(2){
+    background-color: #56C4E7;
+}
+.colors_p1 > div:nth-child(3){
+    background-color: #040404;
+}
+
+.colors_p3{
+    display: flex;
+    gap: 1rem;
+}
+.colors_p3 > div{
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50% ;
+}
+.colors_p3 > div:nth-child(1){
+    background-color: #BA2828;
+}
+.colors_p3 > div:nth-child(2){
+    background-color: #E2C048;
+}
+.colors_p3 > div:nth-child(3){
+    background-color: #040404;
+}
+
+
+.colors_p4{
+    display: flex;
+    gap: 1rem;
+}
+.colors_p4 > div{
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50% ;
+}
+.colors_p4 > div:nth-child(1){
+    background-color: #BA2828;
+}
+.colors_p4 > div:nth-child(2){
+    background-color: #E5D4D1;
+}
+.colors_p4 > div:nth-child(3){
+    background-color: #040404;
+}
+
+/* end colors */
+.for-m{
+    margin-right: 11.5rem;
+}

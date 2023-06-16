@@ -77,11 +77,15 @@
 .size-sell{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .org-size{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.sells-arr{
+    height: 50rem;
 }
 .org-size > p{
     border: 0.8px solid #A5A9B2;
