@@ -121,3 +121,61 @@
 .for-m{
     margin-right: 11.5rem;
 }
+
+
+
+
+/* bottomm product */
+
+
+.bottom-product{
+    padding: 9.1rem 0;
+}
+.wear-product{
+    display: flex;
+    height: 100%;
+    width: 39%;
+    
+    justify-content: space-between;
+}
+.bottom-product > .container{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.wear-product > img{
+    width: 40%;
+}
+.men-p > img{
+    width: 40%;
+    height: 100%;
+}
+.girl-p{
+    background-color: #E9E6F0;
+}
+.men-p{
+    background-color: #F6EBD9;
+}
+.right-product{
+    padding: 8.2rem 4.8rem;
+}
+.right-product > h2{
+    font-size: 3rem;
+    line-height: 3.5rem;
+    padding-bottom: 2rem;
+}
+.right-product > a{
+    color: #000;
+    font-size: 1.8rem;
+    font-family: work;
+    text-decoration: underline;
+    line-height: 1.5rem;
+}
+.right-product > span{
+    color: #589195;
+    font-size: 1.8rem;
+    font-family: work;
+    line-height: 6rem;
+    font-weight: 400;
+}
